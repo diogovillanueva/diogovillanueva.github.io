@@ -1,0 +1,281 @@
+
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado */
+.encabezado {
+    background-color: #1e1e2f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Texto */
+.texto-encabezado h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.texto-encabezado h2 {
+    color: #61dafb;
+    margin-bottom: 10px;
+}
+
+.texto-encabezado p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* Fotografía */
+.foto img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #61dafb;
+}
+
+
+/* Sección Sobre mí */
+
+
+/* Contenedor de ambas secciones */
+.informacion {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    align-items: stretch;
+}
+
+/* Sobre mí */
+.sobre-mi {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+/* Formación */
+.formacion {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+/* Títulos */
+.sobre-mi h2,
+.formacion h2 {
+    color: #1e1e2f;
+    font-size: 28px;
+    border-bottom: 3px solid #61dafb;
+    padding-bottom: 10px;
+}
+
+/* Texto de Sobre mí */
+.sobre-mi p {
+    color: #333333;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+/* Lista de formación */
+.formacion ul {
+    padding-left: 20px;
+}
+
+.formacion li {
+    color: #333333;
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+
+/* Apartado de cursos */
+.cursos {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Título */
+.cursos h2 {
+    color: #1e1e2f;
+    font-size: 28px;
+    border-bottom: 3px solid #61dafb;
+    padding-bottom: 10px;
+}
+
+/* Lista */
+.lista-cursos {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+/* Elemento de la lista */
+.lista-cursos li {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Nombre del curso */
+.lista-cursos h3 {
+    color: #1e1e2f;
+    margin-top: 0;
+}
+
+/* Docente */
+.lista-cursos p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Enlace */
+.lista-cursos a {
+    display: inline-block;
+    background-color: #1e1e2f;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+/* Efecto del enlace */
+.lista-cursos a:hover {
+    background-color: #61dafb;
+    color: #1e1e2f;
+}
+
+
+/* Apartado de compañeros */
+.companeros {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Título */
+.companeros h2 {
+    color: #1e1e2f;
+    font-size: 28px;
+    border-bottom: 3px solid #61dafb;
+    padding-bottom: 10px;
+}
+
+/* Texto introductorio */
+.companeros p {
+    color: #555;
+    font-size: 17px;
+}
+
+/* Lista */
+.lista-companeros {
+    list-style: none;
+    padding: 0;
+    max-width: 500px;
+    margin: 25px auto;
+}
+
+/* Elementos */
+.lista-companeros li {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+/* Nombre */
+.lista-companeros h3 {
+    color: #1e1e2f;
+    margin-top: 0;
+}
+
+/* Enlace */
+.lista-companeros a {
+    display: inline-block;
+    background-color: #1e1e2f;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+/* Efecto al pasar el mouse */
+.lista-companeros a:hover {
+    background-color: #61dafb;
+    color: #1e1e2f;
+}
+
+
+/* Contactos */
+.contactos {
+    background-color: white;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contactos h2 {
+    color: #1e1e2f;
+    font-size: 28px;
+    border-bottom: 3px solid #61dafb;
+    padding-bottom: 10px;
+}
+
+/* Contenedor de botones */
+.botones-contacto {
+    margin: 25px 0;
+}
+
+/* Botones */
+.botones-contacto a {
+    display: inline-block;
+    background-color: #1e1e2f;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+/* Efecto hover */
+.botones-contacto a:hover {
+    background-color: #61dafb;
+    color: #1e1e2f;
+}
+
+/* Correo */
+.contactos p {
+    font-size: 18px;
+    color: #333;
+}
+
+.contactos p a {
+    color: #1e1e2f;
+    text-decoration: none;
+}
+
+.contactos p a:hover {
+    color: #0077b5;
+    text-decoration: underline;
+}
+
+
+
